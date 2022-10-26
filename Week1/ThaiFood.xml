@@ -4,4 +4,68 @@
     <FoodName>ข้าวผัดปู</FoodName>
     <price>50 บาท</price>
     </ThaiFood>
+
+    <ThaiFood> 
+    <Foodid>002</Foodid>
+    <FoodName>ข้าวผัดหมู</FoodName>
+    <price>50 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>003</Foodid>
+    <FoodName>ข้าวขาหมู</FoodName>
+    <price>60 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>004</Foodid>
+    <FoodName>ข้าวผัดเครื่องแกง</FoodName>
+    <price>60 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>005</Foodid>
+    <FoodName>ข้าวหมูกรอบ</FoodName>
+    <price>50 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>006</Foodid>
+    <FoodName>ข้าวมันไก่</FoodName>
+    <price>50 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>007</Foodid>
+    <FoodName>ข้าวหมูแดง</FoodName>
+    <price>50 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>008</Foodid>
+    <FoodName>ข้าวผัดหมู</FoodName>
+    <price>50 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>009</Foodid>
+    <FoodName>ข้าวผัดทะเล</FoodName>
+    <price>60 บาท</price>
+    </ThaiFood>
+
+    
+    <ThaiFood> 
+    <Foodid>010</Foodid>
+    <FoodName>ข้าวกระเพราหมูกรอบ</FoodName>
+    <price>60 บาท</price>
+    </ThaiFood>
+
+    
 </Food>
