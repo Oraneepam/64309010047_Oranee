@@ -9,7 +9,7 @@ let order = [{
     "Qty": [2, 3],
     "Price": [130, 120]
 }, {
-    "Customer": "Miss Baitoey",
+    "Customer": "Miss pam",
     "ItemOrder": ["Flash Drive", "VGA card", "SSD"],
     "Qty": [2, 3, 1],
     "Price": [130, 300, 250]
