@@ -34,20 +34,26 @@
                 
                 for(i=0;i<obj.length;i++){
                     //console.log(obj[i]);
-                    temp += '<tr><td><h2>'+obj[i].movieName+'<br></h2>'
-                        +"ความยาวหนัง"+obj[i].movieLength+'<br>'
-                        +"ผู้กับกับ"+obj[i].director
-                        +"แนวหนัง"+obj[i].category
-                        +"รูป"+obj[i].picture + '<br>'
-                        +"ตัวอย่าง"+obj[i].trailer 
+                    temp += '<tr><td><h2>'+obj[i].movieName+'<br></h2>' +'<br>'
+                        + '<b>ความยาวหนัง</b> &nbsp'+obj[i].movieLength +'<br>'
+                        +"<b>ผู้กับกับ</b>  &nbsp"+obj[i].director  +'<br>'
+                        +"<b>แนวหนัง</b>  &nbsp"+obj[i].category +'<br>'
+                        +"<b>รีวิว</b> &nbsp"+obj[i].review.review + '<br>'
 
+                        +"<b>คะแนนรีวิว</b>" + '<br>'
+                        +"<b>บทหนัง</b> &nbsp"+obj[i].review.score.screenPlay + '<br>'
+                        +"<b>การดำเนินเรื่อง</b> &nbsp"+obj[i].review.score.playing + '<br>'
+                        +"<b>ดนตรีประกอบ</b> &nbsp"+obj[i].review.score.music + '<br>'
+                        +"<b>ฝีมือนักแสดง</b> &nbsp"+obj[i].review.score.actorSkills + '<br>'
+                        +"<b>กราฟฟิก</b> &nbsp"+obj[i].review.score.graphics + '<br>'
+                        +"<b>คะแนนเฉลี่ย</b> &nbsp"+obj[i].review.score.average + '<br>'
 
-                       + '<td><img src="'+obj[i].picture+'"width="150px"></td>' + '</tr>';
+                        + '<iframe src =  "' +obj[i].trailer + '"> </iframe><td>'
+                       + '<td><img src="'+obj[i].picture+'"width="300px"></td>' + '</tr>';
                 }
-                 document.getElementById('display').innerHTML = '<table class="table"'+temp+'</table>';
+                 document.getElementById('display').innerHTML = '<table class="table-danger""'+temp+'</table>';
             }
     </script>
-
    
   </body>
 </html>
